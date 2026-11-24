@@ -1,0 +1,17 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+sqlalchemy>=2.0
+psycopg[binary]>=3.1
+pgvector>=0.3
+pydantic>=2.6
+pydantic-settings>=2.2
+python-multipart>=0.0.9
+numpy>=1.26
+langchain-core>=0.3
+langgraph>=0.2
+# LLM providers (optional at runtime - the platform falls back to rules + extractive answers without a key)
+langchain-openai>=0.2
+langchain-anthropic>=0.3
+# tests
+pytest>=8.0
+httpx>=0.27
